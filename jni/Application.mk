@@ -1,0 +1,9 @@
+APP_ABI 			:= armeabi armeabi-v7a # x86 mips
+APP_CFLAGS 			:= -Wall 
+APP_CFLAGS 			+= -Wmissing-prototypes 
+APP_CFLAGS 			+= -Wstrict-prototypes 
+APP_CFLAGS 			+= -Wno-unused-parameter 
+APP_CFLAGS 			+= -Wno-missing-field-initializers 
+APP_CFLAGS 			+= -fexceptions 
+APP_CFLAGS 			+= -DHAVE_EXPAT_CONFIG_H 
+#APP_OPTIM			:= debug
